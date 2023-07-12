@@ -1,0 +1,22 @@
+[INFO] setting shape predictor options...
+[INFO] shape predictor options:
+shape_predictor_training_options(be_verbose=1, cascade_depth=20, tree_depth=4, num_trees_per_cascade_level=500, nu=0.01, oversampling_amount=20, oversampling_translation_jitter=0.1, feature_pool_size=750, lambda_param=0.1, num_test_splits=100, feature_pool_region_padding=0, random_seed=, num_threads=16, landmark_relative_padding_mode=1)[INFO] training shape predictor...
+Training with cascade depth: 20
+Training with tree depth: 4
+Training with 500 trees per cascade level.
+Training with nu: 0.01
+Training with random seed:
+Training with oversampling amount: 20
+Training with oversampling translation jitter: 0.1
+Training with landmark_relative_padding_mode: 1
+Training with feature pool size: 750
+Training with feature pool region padding: 0
+Training with 16 threads.
+Training with lambda_param: 0.1
+Training with 100 split tests.
+Fitting trees...
+Progress: 9999/10000 (99.99%). Time remaining: 0 seconds.
+Training complete
+Training complete, saved predictor to file models/dlib_landmark_predictor.dat
+[INFO] train error: 2.7291218523576553
+[INFO] test error: 3.292686088809546
